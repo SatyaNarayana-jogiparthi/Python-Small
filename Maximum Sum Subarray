@@ -1,0 +1,12 @@
+a = [2, 5, -5, 14, 8, 9, -11]
+b = 2
+
+max_sum = 0
+
+for i in range(0, len(a), b):
+    s = sum(a[i:i+b])
+
+    if s > max_sum:
+        max_sum = s
+
+print(max_sum)
