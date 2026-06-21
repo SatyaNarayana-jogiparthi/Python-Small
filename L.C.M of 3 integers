@@ -1,0 +1,11 @@
+a = 3
+b = 4
+c = 2
+
+n = max(a, b, c)
+
+while True:
+    if n % a == 0 and n % b == 0 and n % c == 0:
+        print(n)
+        break
+    n += 1
